@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClientAidl/ClientAidl.iml" filepath="$PROJECT_DIR$/ClientAidl/ClientAidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinSamples.iml" filepath="$PROJECT_DIR$/KotlinSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlaceSearchMap/app.iml" filepath="$PROJECT_DIR$/PlaceSearchMap/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerAidl/ServerAidl.iml" filepath="$PROJECT_DIR$/ServerAidl/ServerAidl.iml" />
+    </modules>
+  </component>
+</project>
