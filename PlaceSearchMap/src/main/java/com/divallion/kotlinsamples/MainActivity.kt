@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     override fun onMapReady(map: GoogleMap?) {
-        mMap = map;
+        mMap = map
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -62,10 +62,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     fun updatePlaceOnMap(place: Place?) {
-        mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(place?.latLng,13f));
+        mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(place?.latLng,13f))
         mMap?.addMarker(MarkerOptions().icon(BitmapDescriptorFactory.defaultMarker())
                 .title(place?.address as String)
-                .position(place?.latLng))
+                .position(place.latLng))
     }
 
 

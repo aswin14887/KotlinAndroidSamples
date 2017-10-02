@@ -1,1 +1,1 @@
-include ':PlaceSearchMap', ':ServerAidl', ':ClientAidl'
+include ':PlaceSearchMap', ':ServerAidl', ':ClientAidl', ':RestApiSample'
